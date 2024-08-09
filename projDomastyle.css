@@ -1,10 +1,10 @@
-body{
+.conntainerProj{
     width: 1440px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(244, 244, 244);
     margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 1440px;
     height: 982.05px;
     display: inline-block;
@@ -176,21 +176,10 @@ nav{
         content: "\1F465 2";
      }
    
-
-     .goodHandRight{
-        width: 1100px;
-        display: inline-block;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 120px 169px;
-        border-radius: 30px;
-        background: url('Good\ Hands2.png');
-        background-repeat: no-repeat;
-        background-position: bottom right;
-     }
      .goodaHandLeft{
-        background: url('Good\ Handsleft.png');
-        background-repeat: no-repeat;
-        background-position: bottom left;
+       display: flex;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+
      }
      .textLeft{
         display: flex;
@@ -270,7 +259,6 @@ nav{
     min-width: 100px;
     margin: 20px;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .stylebuttonFooter:hover{
@@ -296,5 +284,12 @@ nav{
     transition: 2s linear;
   }
 .widget-list a:hover {color:  rgb(226, 142, 46);}
-.fadeInDown li {list-style-type: none;}
+
+.fadeInDown h4 { text-align: center; padding: 10px;}
+.fadeInDown li {
+   list-style: none;
+   width: 200px;
+   padding: 10px;
+}
+.fadeInDown a{ color: aliceblue;}
  
